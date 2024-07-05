@@ -8,7 +8,7 @@ The code is designed to evaluate the performance of these models on a set of tar
 ## Files
 - `PI dataset.txt`: The dataset used for training and evaluation.
 - `PI sequence dataset.txt` The filtered dataset that contains initial protein sequences of HIV protease and FR. Sequences of variants containing several inaccurately defined amino acid residues at positions of significant drug resistance mutations were excluded
-- `script RFR SVR.py`: The  Python script that contains the code for training and evaluating the models.
+- `script_RFR_SVR+mutation_determination.py`: The  Python script that contains the code for training and evaluating the models and resistace mutation determinantion.
 
 ## Usage
 1. Install necessary libraries: Ensure that you have the necessary libraries installed, including **pandas**, **numpy**, **scikit-learn**, and **matplotlib**.
